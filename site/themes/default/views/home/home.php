@@ -411,14 +411,14 @@
       }
 
       var newsData= "";
-      for(var i=5; i<response.results.length; i++){
+      for(var i=4; i<response.results.length; i++){
         // var img = response.results[i]['media'][0]['media-metadata'][1].url;
         newsData += `<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-4">`;
         newsData += `
                       <div class="single_stories_box">
                         <div class="stories_box_content">
                           <div class="storie_links_image">
-                            <a href="single.html"><img src="${response.results[i]['media'][0]['media-metadata'][2].url}" class="img-fluid" alt="Image"></a>
+                            <a href="single.html"><img src="" class="img-fluid" alt="Image"></a>
                           </div>
                           <div class="stories_source_meta">
                             <div class="news_original_site">
